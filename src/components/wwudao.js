@@ -1,5 +1,5 @@
 
-import '/Users/aaronleek/Desktop/DAO BACKUP/buildspace-dao-starter copy/src/components/wwudao.css'
+import '../components/wwudao.css'
 
 const wwuDAO = ({}) => {
 
