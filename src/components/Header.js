@@ -1,6 +1,5 @@
-import '/Users/aaronleek/Desktop/DAO BACKUP/buildspace-dao-starter copy/src/components/Header.css'
-import wlaimage from '/Users/aaronleek/Desktop/DAO BACKUP/buildspace-dao-starter copy/src/assets/logo4.png'
-import searchIcon from '/Users/aaronleek/Desktop/DAO BACKUP/buildspace-dao-starter copy/src/assets/search.png'
+import '../components/Header.css'
+import wlaimage from '../assets/logo4.png'
 
 const Header = ({}) => {
 
