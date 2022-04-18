@@ -8,7 +8,7 @@ import axios from 'axios'
 import Header from './components/Header';
 import ButtonList from './components/ButtonList'
 import Wwudao from './components/wwudao'
-import '/Users/aaronleek/Desktop/DAO BACKUP/buildspace-dao-starter copy/src/index.css'
+import '../src/index.css'
 import NFTCardList from './components/NFTCardList';
 
 const App = () => {
