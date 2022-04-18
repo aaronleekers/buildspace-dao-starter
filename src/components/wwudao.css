@@ -1,0 +1,12 @@
+.assembly {
+    display: flex;
+}
+
+.header {
+    display: flex;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}

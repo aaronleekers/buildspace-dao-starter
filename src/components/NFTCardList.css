@@ -1,0 +1,19 @@
+.collectionContainer {
+    cursor: pointer;
+    overflow: scroll;
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+
+.collectionContainer > div {
+    display: flex;
+    width: 1600px;
+}
+
+.openSea {
+    margin-left: 5%;
+    width:30%;
+}

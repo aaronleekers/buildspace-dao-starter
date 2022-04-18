@@ -1,0 +1,18 @@
+.buttonlist {
+    flex-direction: row;
+    width: 960px;
+    max-width: calc(100% - 1rem);
+    margin-top: 0rem;
+    align-content: center;
+    display: flex;
+    text-align: right;
+    margin-left: 4rem;
+    padding-top: 4rem;
+  
+  
+  }
+
+  .topContainer {
+    display: flex;
+    flex-direction: row;
+  }

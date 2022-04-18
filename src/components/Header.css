@@ -1,0 +1,44 @@
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wlaLogo {
+    width: 250px;
+}
+
+.header > div {
+    margin: 10px;
+}
+
+
+
+
+.headerItems {
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerButton {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.03);
+        color: #ffffff;
+        border: none;
+        font-weight: bold;
+        font-family: inherit;
+        border-radius: 40px;
+        font-size: 20px;
+        width: 170px;
+        height: 80px;
+        box-shadow: 3.1px 6.2px 6.2px #656853; 
+        padding: auto;
+      }
+
+.headerItems > p {
+    margin: 10px;
+}
