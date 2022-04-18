@@ -1,6 +1,6 @@
 import react from "react";
 import './CollectionCard.css'
-import wlaimage from '/Users/aaronleek/Desktop/DAO BACKUP/buildspace-dao-starter copy/src/assets/wwuDAO2.png'
+import wlaimage from '../assets/wwuDAO2.png'
 import { useAddress, useMetamask, useEditionDrop, useToken, useNftTokenMetadata, useNFTDrop, getNFTDrop, getAllClaimerAddresses, useNFTCollection } from '@thirdweb-dev/react';
 
 
