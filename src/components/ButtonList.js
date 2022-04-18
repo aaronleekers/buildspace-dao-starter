@@ -1,6 +1,3 @@
-import '/Users/aaronleek/Desktop/DAO BACKUP/buildspace-dao-starter copy/src/components/ButtonList.css'
-import wlaimage from '/Users/aaronleek/Desktop/DAO BACKUP/buildspace-dao-starter copy/src/assets/logo4.png'
-import searchIcon from '/Users/aaronleek/Desktop/DAO BACKUP/buildspace-dao-starter copy/src/assets/search.png'
 import { useAddress, useMetamask, useEditionDrop, useToken, useNftTokenMetadata, useNFTDrop, getNFTDrop, getAllClaimerAddresses } from '@thirdweb-dev/react';
 
 const ButtonList = ({}) => {
