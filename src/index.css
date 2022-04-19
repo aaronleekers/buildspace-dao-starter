@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #656853;
   color: #fff;
-  overflow-x: hidden;
+  overflow-x: visible;
   text-align: center;
 }
 #root {
