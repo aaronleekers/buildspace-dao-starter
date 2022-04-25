@@ -1,5 +1,7 @@
 import '../components/Header.css'
 import wlaimage from '../assets/logo4.png'
+import discord from '../assets/white2.png'
+import opensea from '../assets/opensea.png'
 
 const Header = ({}) => {
 
@@ -16,9 +18,6 @@ const Header = ({}) => {
                 </form>
                 <form action="https://discord.gg/D7d7qjezX5">
                     <button className='headerButton' type="submit">Discord</button>
-                </form>
-                <form action="https://forms.gle/jLfTwkBxe5ifNYKRA">
-                    <button className='headerButton' type="submit">Become an Officer</button>
                 </form>
                 <form action="https://medium.com/@leekaaron5/on-the-wwudao-63fe77e6bc70">
                     <button className='headerButton' type="submit">Learn More</button>

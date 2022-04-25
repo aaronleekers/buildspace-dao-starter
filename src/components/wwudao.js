@@ -1,16 +1,49 @@
 
 import '../components/wwudao.css'
+import { useState } from 'react';
+import { useEditionDrop } from '@thirdweb-dev/react';
+import Header from './Header';
 
-const wwuDAO = ({}) => {
+
+const WwuDAO = ({}) => {
+
+const editionDrop = useEditionDrop("0x0aA1c2d61CE84f40FF1FC4aA6324CBF2bb28a252");
 
 
+const [hasClaimedNFT, setHasClaimedNFT,] = useState(false);
 
+const [isClaiming, setIsClaiming] = useState(false);
+
+const mintMembershipNft = async () => {
+  try {
+    setIsClaiming(true);
+    await editionDrop.claim(0, 1);
+    console.log(`🌊 Successfully Minted! Check it out on OpenSea: https://opensea.io/assets/${editionDrop.getAddress()}/0`);
+    setHasClaimedNFT(true);
+  } catch (error) {
+    setHasClaimedNFT(false);
+    console.error("Failed to mint NFT", error);
+  } finally {
+    setIsClaiming(false);
+  }
+};
 
 
     return (
-      <div className='container'>
+      <div>
+        <Header/>
+        <div className='container'>
         <div>
-        <h1 className='header'>What is the wwuDAO?</h1>
+        <div className='mintCard'>
+        <h1>Mint a free membership NFT to access the member page</h1>
+        <img className='memberNft' src={'https://bafybeihmw6yymm7hgbnaqcjurhp2dxnpf2fgcd3psedcbyqyuilqgp3i7i.ipfs.nftstorage.link/'}/>
+      <button className='claim' disabled={isClaiming} onClick={mintMembershipNft}>
+        {isClaiming ? "Minting..." : "Claim Membership NFT"}
+      </button>
+      </div>
+        </div>
+        <div>
+        <h1 className='headerC'>What is the wwuDAO?</h1>
         <div>
         <div className='body'>
         <p>
@@ -25,8 +58,11 @@ const wwuDAO = ({}) => {
         </div>
         </div>
         </div>
+
+        </div>
       </div>
+      
     )
 }
 
-export default wwuDAO
+export default WwuDAO

@@ -1,3 +1,4 @@
+import '../components/ButtonList.css'
 import { useAddress, useMetamask, useEditionDrop, useToken, useNftTokenMetadata, useNFTDrop, getNFTDrop, getAllClaimerAddresses } from '@thirdweb-dev/react';
 
 const ButtonList = ({}) => {

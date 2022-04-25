@@ -1,19 +1,44 @@
 .collectionContainer {
     cursor: pointer;
     overflow: scroll;
-    display: flex;
-    margin-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid white;
+    padding-bottom: -100px;
+    height: 350px;
+    width: auto;
+    margin-left: 20px;
+    border-left-color:white;
+}
+
+h1 {
+    margin-left: 40px;
 }
 
 
+.done { 
+    width: 220px;
+    margin-left: 40px;
+    font-style: italic;
+    font-weight: normal;
+}
 .collectionContainer > div {
+    justify-items:auto;
     display: flex;
-    width: 1600px;
+    align-items: left;
+    border-radius: 30px;   
+    width: 100%;
 }
 
 .openSea {
-    margin-left: 5%;
-    width:30%;
+    margin-left: .6%;
+    width:5%;
+}
+.collection {
+    margin-top: 100px;
+    width:auto;
+    height:auto;
+    overflow:scroll;
+}
+
+.firstNorth {
+    display: flex;
+    flex-direction: column;
 }

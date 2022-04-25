@@ -7,9 +7,12 @@ import CollectionCard from './components/CollectionCard';
 import axios from 'axios'
 import Header from './components/Header';
 import ButtonList from './components/ButtonList'
-import Wwudao from './components/wwudao'
+import WwuDAO from './components/wwudao'
 import '../src/index.css'
 import NFTCardList from './components/NFTCardList';
+import Officer from './components/Officer'
+import Landing from './components/landing';
+
 
 const App = () => {
   // Use the hooks thirdweb give us.
@@ -21,13 +24,11 @@ const App = () => {
 
   window.Buffer = Buffer;
   // Initialize our editionDrop contract
-  const editionDrop = useEditionDrop("0x51D46e7AE5cA35172f8E505f9cFd82087A416549");
+  const editionDrop = useEditionDrop("0x0aA1c2d61CE84f40FF1FC4aA6324CBF2bb28a252");
   // Initialize our token contract
   const token = useToken("0xAF9621D4C4AE4419840577e04908EbeC12243BE9");
-  // Initalize our 721Drop contract
-  const nftDrop = useNFTDrop("0x4F3424D49aeF37BB1D68276bF59DBa1EFa6e779A");
   // State variable for us to know if user has our NFT.
-  const [hasClaimedNFT, setHasClaimedNFT, clickedLink, setHasClickedLink] = useState(false);
+  const [hasClaimedNFT, setHasClaimedNFT,] = useState(false);
   // isClaiming lets us easily keep a loading state while the NFT is minting.
   const [isClaiming, setIsClaiming] = useState(false);
 
@@ -119,19 +120,7 @@ const memberList = useMemo(() => {
     checkBalance();
   }, [address, editionDrop]);
   
-  const mintMembershipNft = async () => {
-    try {
-      setIsClaiming(true); 
-      await editionDrop.claim(0, 1);
-      console.log(`🌊 Successfully Minted! Check it out on OpenSea: https://opensea.io/assets/${editionDrop.getAddress()}/0`);
-      setHasClaimedNFT(true);
-    } catch (error) {
-      setHasClaimedNFT(false);
-      console.error("Failed to mint NFT", error);
-    } finally {
-      setIsClaiming(false);
-    }
-  };
+  
 
   const mintOfficerNft = async () => {
     try {
@@ -152,11 +141,8 @@ const memberList = useMemo(() => {
   // to your web app. Let them call connectWallet.
   if (!address) {
     return (
-      <div className="landing">
-        <h1>Welcome to wwuDAO</h1>
-        <button onClick={connectWithMetamask} className="btn-hero">
-          Connect your wallet
-        </button>
+      <div>
+        <Landing/>
       </div>
     );
   }
@@ -168,25 +154,26 @@ const memberList = useMemo(() => {
         <Header/>
       </div>
       <div>
-        <Wwudao/>
+        <Officer/>
       </div>
       <div className='nftCardList'>
         <div>
           <NFTCardList/>
-        </div>    
+        </div>   
+        <div>
+        <div>
+      </div>
       </div>
     </div>
+          </div> 
   );
 };
 
   
   // Render mint nft screen.
   return (
-    <div className="mint-nft">
-      <h1>Mint your free wwuDAO Membership NFT</h1>
-      <button disabled={isClaiming} onClick={mintMembershipNft}>
-        {isClaiming ? "Minting..." : "Mint your nft (FREE)"}
-      </button>
+    <div>
+      <WwuDAO className='header'/>
     </div>
   );
 }
