@@ -1,23 +1,19 @@
 import { useAddress, useMetamask, useEditionDrop, useToken, useNftTokenMetadata, useNFTDrop, getNFTDrop, getAllClaimerAddresses } from '@thirdweb-dev/react';
 import { useState, useEffect, useMemo } from 'react';
 import { Buffer } from 'buffer';
-import Image from 'next/image'
-import Link from 'next/link'
-import CollectionCard from './components/CollectionCard';
-import axios from 'axios'
 import Header from './components/Header';
-import ButtonList from './components/ButtonList'
-import WwuDAO from './components/wwudao'
 import '../src/index.css'
 import NFTCardList from './components/NFTCardList';
 import Officer from './components/Officer'
 import Landing from './components/landing';
-
+import ContractCollection from './components/ContractCollection';
+import WwuDAO from './components/wwudao';
+import WwudaoBody from './components/wwudaoBody';
+import Footer from './components/Footer'
 
 const App = () => {
   // Use the hooks thirdweb give us.
   const address = useAddress();
-  const connectWithMetamask = useMetamask();
   console.log("👋 Address:", address);
 
   
@@ -36,11 +32,6 @@ const App = () => {
 const [memberTokenAmounts, setMemberTokenAmounts] = useState([]);
 // The array holding all of our members addresses.
 const [memberAddresses, setMemberAddresses] = useState([]);
-
-// A fancy function to shorten someones wallet address, no need to show the whole thing. 
-const shortenAddress = (str) => {
-  return str.substring(0, 6) + "..." + str.substring(str.length - 4);
-};
 
 // This useEffect grabs all the addresses of our members holding our NFT.
 useEffect(() => {
@@ -122,27 +113,20 @@ const memberList = useMemo(() => {
   
   
 
-  const mintOfficerNft = async () => {
-    try {
-      setIsClaiming(true); 
-      await editionDrop.claim(1, 1);
-      console.log(`🌊 Successfully Minted! Check it out on OpenSea: https://opensea.io/assets/${editionDrop.getAddress()}/0`);
-      setHasClaimedNFT(true);
-    } catch (error) {
-      setHasClaimedNFT(false);
-      console.error("Failed to mint NFT", error);
-    } finally {
-      setIsClaiming(false);
-    }
-  };
-
 
   // This is the case where the user hasn't connected their wallet
   // to your web app. Let them call connectWallet.
-  if (!address) {
+  if (!hasClaimedNFT) {
     return (
       <div>
+        <Header/>
+        <div className='landingTop'>
+        <WwuDAO/>
         <Landing/>
+        </div>
+        <WwudaoBody/>
+        <ContractCollection/>
+        <Footer/>
       </div>
     );
   }
@@ -167,15 +151,7 @@ const memberList = useMemo(() => {
     </div>
           </div> 
   );
+  }
 };
 
-  
-  // Render mint nft screen.
-  return (
-    <div>
-      <WwuDAO className='header'/>
-    </div>
-  );
-}
-
-export default App;
+export default App

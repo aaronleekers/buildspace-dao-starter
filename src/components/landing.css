@@ -1,18 +1,164 @@
 
-.landing {
-    align-items: right;
+ 
+
+.onBoarding {
     display: flex;
+    align-items: left;
+    flex-direction: column;
+    overflow:scroll;
 
 }
- 
-button {
-    width: auto;
-    align-content: right;
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-right: 30px;
+
+.onBoarding > div {
+    margin-right: 300px;
+
 }
- .logo {
-     width: 400px;
- }
- 
+
+.onBoarding > h1 {
+    margin-right: 225px;
+}
+
+.metaMask {
+    color: white;
+    background-color: #1a1c1e;
+    border-radius: 30px;
+    width: 420px;
+    height: 385px;
+    display: flex;
+    align-items: center;
+    outline-style:solid;
+    outline-width: 0px;
+    outline-color: rgb(255, 255, 255);
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin-left:
+}
+
+.metaMask > div {
+    display: flex;
+}
+
+.numbers {
+display: flex;
+flex-direction: column;
+margin-left:20px;
+padding-top: 5px;
+padding-bottom: 40px;
+margin-right: -20px;
+}
+
+.numbers > h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    height: 20px;
+    padding-right:-1px;
+    padding-left: -1px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    color: #1a1c1e;
+    align-items: center;
+}
+
+.steps {
+margin-top: -10px;
+}
+
+.steps > div > h1 {
+    color: #ffffff;
+    border-radius: 0px;
+    width: 400px;
+    height: 30px;
+    font-size: 22px;
+    padding-top: 22px;
+    text-align:left;
+}
+
+
+.buttonList {
+    flex-direction: column;
+    width: 0px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: -100px;
+    margin-right: 0;
+
+}
+
+.buttonList > div {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.actionButton {
+    background-color: rgb(205, 207, 186);
+    color: #1a1c1e;
+    width: 240px;
+    border-radius: 0px;
+    height: 70px;
+    font-size: 23px;
+    text-align: center;
+    padding-left: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    outline-style:solid;
+    outline-color: white;
+    }
+
+.actionButtonTopRight {
+    background-color: rgb(205, 207, 186);
+    color: #1a1c1e;
+    width: 240px;
+    border-radius: 0px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    height: 70px;
+    font-size: 23px;
+    text-align:center;
+    padding: 0px;
+    padding-left: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    outline-style:solid;
+    outline-color: white;
+    }
+
+.actionButtonBottomRight {
+    background-color: rgb(205, 207, 186);
+        color: #1a1c1e;
+        width: 240px;
+        border-radius: 0px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        height: 90px;
+        font-size: 23px;
+        text-align:center;
+        padding: 0px;
+        padding-left: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        outline-style:solid;
+        outline-color: white;
+        margin-bottom: -0px;
+        }
+
+
+
+    .actionButton:hover {
+        background-color: #ffffff;
+      }
+      
+      .actionButtonBottomRight:hover {
+        background-color: #ffffff;
+      }
+      .actionButtonTopRight:hover {
+        background-color: #ffffff;
+      }
+
+
+

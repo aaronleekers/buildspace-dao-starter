@@ -1,6 +1,7 @@
 import react from "react";
 import CollectionCard from "./CollectionCard";
 import './NFTCardList.css'
+import Footer from "./Footer";
 
 const NFTCardList = ({}) => {
 
@@ -414,6 +415,7 @@ const NFTCardList = ({}) => {
         </div> 
         </div>
         </div> 
+        <Footer/>
         </div>
     )
 }

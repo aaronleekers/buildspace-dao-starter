@@ -5,7 +5,7 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #656853;
+  background-color: #5d6855;
   color: #fff;
   overflow-x: hidden;
   text-align: center;
@@ -27,6 +27,10 @@ body {
   margin-left: 40px;
 }
 
+.landingTop {
+  display: flex;
+  flex-direction: row;
+}
 
 .mintCard {
   color: white;

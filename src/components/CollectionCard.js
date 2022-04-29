@@ -42,6 +42,8 @@ const CollectionCard = ({ id, name, traits, image }) => {
                 {isClaiming ? "Minting..." : "Claim"}
               </button>            
             </div>
+            <h1>
+            </h1>
             </div>
             </div>
             </div>

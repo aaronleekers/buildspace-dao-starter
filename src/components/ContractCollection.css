@@ -1,0 +1,65 @@
+
+.container {
+    display: flex;
+margin-left: 50px;
+height: auto;
+}
+
+.mintCard > p {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-style: italic;
+    padding-top: 10px;
+
+}
+
+
+.mintCard {
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 100px;
+}
+
+.mintCard > h1 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.memberNft {
+    border-radius: 00px;
+    height: 300px;
+    width: 300px;
+    align-self: center;
+}
+
+
+.cardButton {
+        cursor: pointer;
+        color: #ffffff;
+        border: none;
+        font-weight: bold;
+        font-family: inherit;
+        margin-top: 0rem;
+        padding: 1.0rem;
+        margin-bottom: 0rem;
+        border-radius: 1rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        font-size: 1.4rem;
+        border-radius: 0px;
+        width: 100%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: #1a1c1e;
+
+}
+
+.cardButton:hover {
+    background-color: rgb(255, 255, 255);
+    color: #1a1c1e;
+
+}
