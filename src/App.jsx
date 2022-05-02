@@ -118,6 +118,7 @@ const memberList = useMemo(() => {
   if (!hasClaimedNFT) {
     return (
       <div>
+          <meta name="viewport" content="'width=device-width, initial-scale=1.0"></meta>
         <Header/>
         <Landing/>
         <WwudaoBody/>
@@ -130,6 +131,7 @@ const memberList = useMemo(() => {
   if (hasClaimedNFT) {
   return (
     <div className="member-page">
+                <meta name="viewport" content="'width=device-width, initial-scale=1.0"></meta>
       <div>
         <Header/>
       </div>
