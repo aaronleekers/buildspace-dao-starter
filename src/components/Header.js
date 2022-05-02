@@ -7,6 +7,7 @@ const Header = ({}) => {
 
     return (
         <div>
+            
             <div className='header'>
             <div className='logoContainer'>
                 <img src={wlaimage} className='wlaLogo' alt=''/>
@@ -18,11 +19,7 @@ const Header = ({}) => {
                 </form>
                 <form action="https://discord.gg/D7d7qjezX5">
                     <button className='headerButton' type="submit">Discord</button>
-                </form>
-                <form action="https://medium.com/@leekaaron5/on-the-wwudao-63fe77e6bc70">
-                    <button className='headerButton' type="submit">Learn More</button>
-                </form>
-    
+                </form>    
             </div>
             </div>
         </div>

@@ -32,6 +32,7 @@ const CollectionCard = ({ id, name, traits, image }) => {
 
     return (
         <div>
+      
             <div className="collectionCard">
                 <img className src={image} alt="" />
                 <div className='details'>

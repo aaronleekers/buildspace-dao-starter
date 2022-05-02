@@ -35,7 +35,8 @@ const Officer = ({}) => {
 
     return (
         <div>
-        <div className='container'>
+          
+        <div className='officerContainer'>
           <div className='officerCard'>
               <div>
                 <p>

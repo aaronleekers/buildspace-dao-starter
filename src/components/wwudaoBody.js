@@ -7,6 +7,7 @@ const WwudaoBody = ({}) => {
 
     return (
         <div className='container'>
+            
         <div>
         <h1 className='headerC'>What is the wwuDAO?</h1>
         <div>

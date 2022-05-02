@@ -7,10 +7,11 @@ const NFTCardList = ({}) => {
 
     return (
         <div>
+            
         <div className='collection'>
         <h1>Sittner NFTs</h1>
         <h3 className='done'>View your room on OpenSea after minting!</h3>
-        <form action='https://opensea.io/collection/sittner-nfts-v2'>
+        <form target='_blank' action='https://opensea.io/collection/sittner-nfts-v4'>
         <button className='openSea' type="submit">View on OpenSea</button></form>
         <div>
         <h1>First North</h1>
@@ -415,7 +416,6 @@ const NFTCardList = ({}) => {
         </div> 
         </div>
         </div> 
-        <Footer/>
         </div>
     )
 }

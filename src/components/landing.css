@@ -162,3 +162,31 @@ margin-top: -10px;
 
 
 
+      .schedule {
+        display: flex;
+        margin-top: 40px;
+        margin-left: -40px;
+        width: auto;
+        }
+        
+        .landingTop {
+            display: flex;
+            flex-direction: row;
+          }
+        
+        .scheduleItems {
+            width: 500px;
+            text-align: left;
+            margin-left: 10px;
+            font-size: 20px;
+            margin-top: 45px;
+            
+        }
+        
+        
+        .body {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            line-height: 25px;
+        }

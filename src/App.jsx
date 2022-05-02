@@ -7,7 +7,6 @@ import NFTCardList from './components/NFTCardList';
 import Officer from './components/Officer'
 import Landing from './components/landing';
 import ContractCollection from './components/ContractCollection';
-import WwuDAO from './components/wwudao';
 import WwudaoBody from './components/wwudaoBody';
 import Footer from './components/Footer'
 
@@ -120,10 +119,7 @@ const memberList = useMemo(() => {
     return (
       <div>
         <Header/>
-        <div className='landingTop'>
-        <WwuDAO/>
         <Landing/>
-        </div>
         <WwudaoBody/>
         <ContractCollection/>
         <Footer/>
@@ -137,7 +133,7 @@ const memberList = useMemo(() => {
       <div>
         <Header/>
       </div>
-      <div>
+      <div className='officerPage'>
         <Officer/>
       </div>
       <div className='nftCardList'>
@@ -149,7 +145,8 @@ const memberList = useMemo(() => {
       </div>
       </div>
     </div>
-          </div> 
+    <Footer/>
+    </div> 
   );
   }
 };

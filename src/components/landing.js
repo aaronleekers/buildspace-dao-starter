@@ -3,7 +3,6 @@ import { useMetamask, useEditionDrop, useNetworkMismatch, useNetwork } from '@th
 import video from '../assets/video.mov'
 import image from '../assets/logo4.png'
 import Header from './Header';
-import WwuDAO from './wwudao';
 import { useState } from 'react'
 import ContractCollection from './ContractCollection';
 const Landing = ({}) => {
@@ -68,10 +67,29 @@ const Landing = ({}) => {
 };
 
 
-    console.log(isMismatched);
-
     return (
+        <div className='landingTop'>  
+        <div> 
         <div>
+        <div>
+        </div>
+        <div>
+        <div className='schedule'>
+        <h2>Upcoming Events</h2>
+        <div className='scheduleItems'>
+        <h3>May 1 - DAO is deployed</h3>
+        <h3>May 22 - WLA Airdrop to NFT holders</h3>
+        <h3>June 1 - Officers are selected</h3>
+        <h3>June 10 - Ownership is transferred</h3>
+        </div>
+        </div>
+        <div>
+        <div className='body'>
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
         <div>
         </div>
         <div className='onBoarding'>

@@ -17,8 +17,6 @@ body {
   display: flex;
 }
 
-
-
 .body {
   margin-left: 40px;
 }
@@ -116,13 +114,11 @@ h2 {
 
 .connect-wallet,
 .mint-nft,
-.member-page
-.wwuDAO {
+.member-page {
   flex-direction: column;
-  width: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  margin: 1.0rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  margin: 0rem;
   align-content: left;
   display: flex;
   text-align: right;
@@ -143,18 +139,7 @@ flex-wrap: wrap;
 }
 
 
-.buttonlist {
-  flex-direction: row;
-  width: 960px;
-  max-width: calc(100% - 1rem);
-  margin-top: 0rem;
-  align-content: center;
-  display: flex;
-  text-align: right;
-  margin-left: 4rem;
 
-
-}
 
 .member-page > div {
   display: flex;
