@@ -19,7 +19,7 @@ const App = () => {
 
   window.Buffer = Buffer;
   // Initialize our editionDrop contract
-  const editionDrop = useEditionDrop("0x0aA1c2d61CE84f40FF1FC4aA6324CBF2bb28a252");
+  const editionDrop = useEditionDrop("0x51D46e7AE5cA35172f8E505f9cFd82087A416549");
   // Initialize our token contract
   const token = useToken("0xAF9621D4C4AE4419840577e04908EbeC12243BE9");
   // State variable for us to know if user has our NFT.
