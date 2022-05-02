@@ -1,20 +1,10 @@
 import '../components/Officer.css'
-import wlaimage from '../assets/logo4.png'
-import discord from '../assets/white2.png'
-import opensea from '../assets/opensea.png'
-import CollectionCard from './CollectionCard'
-import { useEditionDrop, useToken, useNFTDrop } from '@thirdweb-dev/react'
+import { useEditionDrop,  } from '@thirdweb-dev/react'
 import { useState } from 'react'
 
 const Officer = ({}) => {
 
     const editionDrop = useEditionDrop("0x51D46e7AE5cA35172f8E505f9cFd82087A416549");
-    // Initialize our token contract
-    const token = useToken("0xAF9621D4C4AE4419840577e04908EbeC12243BE9");
-    // Initalize our 721Drop contract
-    const nftDrop = useNFTDrop("0x4F3424D49aeF37BB1D68276bF59DBa1EFa6e779A");
-    // State variable for us to know if user has our NFT.
-    const [hasClaimedNFT, setHasClaimedNFT, clickedLink, setHasClickedLink] = useState(false);
     // isClaiming lets us easily keep a loading state while the NFT is minting.
     const [isClaiming, setIsClaiming] = useState(false);  
 
@@ -24,9 +14,7 @@ const Officer = ({}) => {
           setIsClaiming(true); 
           await editionDrop.claim(1, 1);
           console.log(`🌊 Successfully Minted! Check it out on OpenSea: https://opensea.io/assets/${editionDrop.getAddress()}/0`);
-          setHasClaimedNFT(true);
         } catch (error) {
-          setHasClaimedNFT(false);
           console.error("Failed to mint NFT", error);
         } finally {
           setIsClaiming(false);

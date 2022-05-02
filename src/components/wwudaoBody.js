@@ -24,7 +24,7 @@ const WwudaoBody = ({}) => {
         </div>
         </div>
         </div>
-        <img className='fivePoints' src='https://bafybeicxgecn2dutseex7hv2glw4on53wwqohwctzbkm5ylauluslkgoci.ipfs.nftstorage.link/'/>
+        <img className='fivePoints' src='https://bafybeicxgecn2dutseex7hv2glw4on53wwqohwctzbkm5ylauluslkgoci.ipfs.nftstorage.link/' alt=''/>
         </div>
     )
 }

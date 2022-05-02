@@ -1,7 +1,5 @@
 import '../components/Header.css'
 import wlaimage from '../assets/logo4.png'
-import discord from '../assets/white2.png'
-import opensea from '../assets/opensea.png'
 
 const Header = ({}) => {
 

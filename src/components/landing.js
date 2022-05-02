@@ -1,15 +1,9 @@
 import '../components/landing.css'
-import { useMetamask, useEditionDrop, useNetworkMismatch, useNetwork } from '@thirdweb-dev/react';
-import video from '../assets/video.mov'
-import image from '../assets/logo4.png'
-import Header from './Header';
+import { useMetamask, useEditionDrop } from '@thirdweb-dev/react';
 import { useState } from 'react'
-import ContractCollection from './ContractCollection';
 const Landing = ({}) => {
 
     const connectWithMetamask = useMetamask();
-
-    const isMismatched = useNetworkMismatch();
 
     const networks = {
       polygon: {
@@ -27,7 +21,7 @@ const Landing = ({}) => {
 
     const editionDrop = useEditionDrop("0x0aA1c2d61CE84f40FF1FC4aA6324CBF2bb28a252");
 
-    const [hasClaimedNFT, setHasClaimedNFT,] = useState(false);
+    const [ setHasClaimedNFT ] = useState(false);
 
     const [isClaiming, setIsClaiming] = useState(false);
 
