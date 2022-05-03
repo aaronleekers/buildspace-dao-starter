@@ -55,7 +55,7 @@ const App = () => {
   // to your web app. Let them call connectWallet.
   if (!hasClaimedNFT) {
     return (
-      <div>
+        <div className='landingPage'>
         <Header/>
         <Landing/>
         <WwudaoBody/>

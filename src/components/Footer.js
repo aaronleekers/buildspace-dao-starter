@@ -8,7 +8,7 @@ const Footer = ({}) => {
                 <div className='affiliation'>
                 <h3>wwuDAO 22</h3>
                 <p>Version 1.0</p>
-                <p>Not affiliated with Walla Walla University</p>
+                <p className='bababooie'>Not affiliated with Walla Walla University</p>
                 </div>
             </div>
         </div>

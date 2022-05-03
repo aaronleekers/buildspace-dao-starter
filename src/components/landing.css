@@ -10,28 +10,24 @@
 }
 
 .onBoarding > div {
-    margin-right: 300px;
+    margin-right: 00px;
 
 }
 
-.onBoarding > h1 {
-    margin-right: 225px;
-}
 
 .metaMask {
     color: white;
     background-color: #1a1c1e;
     border-radius: 30px;
-    width: 420px;
-    height: 385px;
+    width: 45vw;
+    height: 47.5vh;
     display: flex;
     align-items: center;
     outline-style:solid;
     outline-width: 0px;
     outline-color: rgb(255, 255, 255);
-    padding-top:0px;
+    padding-top:8px;
     padding-bottom: 0px;
-    margin-left:
 }
 
 .metaMask > div {
@@ -48,12 +44,12 @@ margin-right: -20px;
 }
 
 .numbers > h2 {
-    font-size: 30px;
-    margin-top: 20px;
-    height: 20px;
+    font-size: 2.3vw;
+    margin-top: .6em;
+    height: 2.6vh;
     padding-right:-1px;
     padding-left: -1px;
-    width: 20px;
+    width: 1.4vw;
     border-radius: 100%;
     background-color: #ffffff;
     color: #1a1c1e;
@@ -69,19 +65,16 @@ margin-top: -10px;
     border-radius: 0px;
     width: 400px;
     height: 30px;
-    font-size: 22px;
+    font-size: 1.6vw;
     padding-top: 22px;
     text-align:left;
 }
 
 
 .buttonList {
-    flex-direction: column;
-    width: 0px;
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: -100px;
-    margin-right: 0;
+    flex-direction: row;
+    margin-left: -9.7vw;
+    margin-bottom: 1vh;
 
 }
 
@@ -163,15 +156,31 @@ margin-top: -10px;
 
 
       .schedule {
+        color: rgb(0, 0, 0);
+        background-color: #ffffff;
+        border-radius: 30px;
+        width: 550px;
+        height: 385px;
         display: flex;
-        margin-top: 40px;
-        margin-left: -40px;
-        width: auto;
+        align-items: center;
+        outline-style:solid;
+        outline-width: 0px;
+        outline-color: rgb(255, 255, 255);
+        padding-top:0px;
+        padding-bottom: 0px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 80px;
         }
-        
+
+        .schedule > h2 {
+            margin-bottom: 280px;
+            font-style: italic;
+        }
+
         .landingTop {
-            display: flex;
-            flex-direction: row;
+            min-width: 1%;
+            max-width: 102%;
           }
         
         .scheduleItems {
@@ -179,10 +188,17 @@ margin-top: -10px;
             text-align: left;
             margin-left: 10px;
             font-size: 20px;
-            margin-top: 45px;
+            margin-top:0px;
+            margin-bottom: 0px;
             
         }
         
+        .scheduleItems > h3 {
+            font-weight: normal;
+            font-size: 20px;
+            margin-top: 60px;
+
+        }
         
         .body {
             display: flex;

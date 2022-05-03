@@ -1,5 +1,6 @@
 .footer {
     height: 150px;
+    width: 100%;
     display: flex;
     margin-top: 30px;
     padding-bottom: 0px;
@@ -13,14 +14,18 @@
         flex-direction: column;
         padding-top:0px;
         padding-bottom: 0px;
-        padding-left: 25px;
+        padding-left: 39%;
     }
 
     .affiliation > h3 {
-        margin-bottom: 0px;
+        margin-bottom: 10px;
         }
     
     .affiliation > p {
         margin-bottom: 0px;
 
+    }
+
+    .bababooie {
+        font-style: italic;
     }
