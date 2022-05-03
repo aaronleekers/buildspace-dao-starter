@@ -5,13 +5,17 @@
     display: flex;
     align-items: left;
     flex-direction: column;
-    overflow:scroll;
+    overflow: visible;
+    width: 100vw;
 
 }
 
 .onBoarding > div {
-    margin-right: 00px;
+    margin-left:2vw;
+}
 
+.onBoarding > h1 {
+    font-size: 2.3vw;
 }
 
 
@@ -159,8 +163,8 @@ margin-top: -10px;
         color: rgb(0, 0, 0);
         background-color: #ffffff;
         border-radius: 30px;
-        width: 550px;
-        height: 385px;
+        width: 40.0vw;
+        height: 50vh;
         display: flex;
         align-items: center;
         outline-style:solid;
@@ -174,8 +178,9 @@ margin-top: -10px;
         }
 
         .schedule > h2 {
-            margin-bottom: 280px;
+            margin-bottom: 30vh;
             font-style: italic;
+            font-size: 2vw;
         }
 
         .landingTop {
@@ -195,8 +200,8 @@ margin-top: -10px;
         
         .scheduleItems > h3 {
             font-weight: normal;
-            font-size: 20px;
-            margin-top: 60px;
+            font-size: 1.6vw;
+            margin-top: 6vh;
 
         }
         
