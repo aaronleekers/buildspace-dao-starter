@@ -1,8 +1,9 @@
 
-.container {
+.contractContainer {
     display: flex;
-margin-left: 50px;
-height: auto;
+    height: auto;
+    flex-wrap: wrap;
+
 }
 
 .mintCard > p {

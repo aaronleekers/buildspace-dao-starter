@@ -1,20 +1,9 @@
 .footer {
-    height: 150px;
-    width: 100%;
-    display: flex;
-    margin-top: 30px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    background-color: rgba(255, 255, 255, 0.179);
-    overflow:hidden;
+
     }
 
     .affiliation {
-        display: flex;
-        flex-direction: column;
-        padding-top:0px;
-        padding-bottom: 0px;
-        padding-left: 39vw;
+ 
     }
 
     .affiliation > h3 {
@@ -22,10 +11,9 @@
         }
     
     .affiliation > p {
-        margin-bottom: 0px;
-
+        margin-bottom: 10px;
     }
 
     .bababooie {
-        font-style: italic;
+        padding-bottom: 10px;
     }

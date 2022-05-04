@@ -62,32 +62,19 @@ const Landing = ({}) => {
 
 
     return (
-        <div className='landingTop'>  
-        <div> 
-        <div>
-        <div>
+        <div className='landingTop'>
+          <div className='scheduleContainer'>
+          <div className='schedule'>
+            <h2>Upcoming Events</h2>
+          <div className='scheduleItems'>
+            <h3>May 1 - DAO is deployed</h3>
+            <h3>May 22 - WLA Airdrop to NFT holders</h3>
+            <h3>June 1 - Officers are selected</h3>
+            <h3>June 10 - Ownership is transferred</h3>
+          </div>
         </div>
-        <div>
-        <div className='schedule'>
-        <h2>Upcoming Events</h2>
-        <div className='scheduleItems'>
-        <h3>May 1 - DAO is deployed</h3>
-        <h3>May 22 - WLA Airdrop to NFT holders</h3>
-        <h3>June 1 - Officers are selected</h3>
-        <h3>June 10 - Ownership is transferred</h3>
-        </div>
-        </div>
-        <div>
-        <div className='body'>
-        </div>
-        </div>
-        </div>
-        </div>
-      </div>
-        <div>
-        </div>
-        <div className='onBoarding'>
-            <h1>Five Steps to join the DAO</h1>
+          </div>
+          <div className='onBoarding'>
             <div className='metaMask'>
                 <div>
                 <div className='numbers'>
@@ -98,7 +85,7 @@ const Landing = ({}) => {
                     <h2>5</h2>
                 </div>
                 <div className='steps'>
-                <div>
+
                 <h1>Install MetaMask Wallet</h1>
                 <h1>Connect Wallet</h1>
                 <h1>Change Network to Polygon</h1>
@@ -106,30 +93,26 @@ const Landing = ({}) => {
                 <h1>Claim Membership NFT</h1>
                 </div>
                 </div>
+                </div>
                 <div className='buttonList'>
-                    <div>
-                    <form target='_blank' action="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn">
+                  <div>
+                  <form target='_blank' action="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn">
                         <button className='actionButtonTopRight' type="submit">Click to Install</button>
                     </form>
-
                         <button className='actionButton' onClick={connectWithMetamask}>Connect Wallet</button>
-                        <button className='actionButton' onClick={() => handleNetworkSwitch("polygon")}>Switch Network</button>
-
-                        
+                        <button className='actionButton' onClick={() => handleNetworkSwitch("polygon")}>Switch Network</button>     
                     <form target='_blank' action="https://forms.gle/JMRyfdHrf5W3M4sQ8">
                         <button className='actionButton' type="submit">Get Free Gas</button>
                     </form>
                     <form>
                         <button className='actionButtonBottomRight' disabled={isClaiming} onClick={mintMembershipNft}>
-                            {isClaiming ? "Minting..." : "Claim Membership NFT"}
+                            {isClaiming ? "Minting..." : "Mint"}
                         </button>    
                     </form>
-                    </div>
+                  </div>
                 </div>
                 </div>
             </div>
-        </div>
-        </div>
     )
 }
 

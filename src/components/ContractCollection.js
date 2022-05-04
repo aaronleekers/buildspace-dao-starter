@@ -4,7 +4,7 @@ import '../components/ContractCollection.css'
 const ContractCollection = ({ }) => {
 
     return (
-        <div className='container'>
+        <div className='contractContainer'>
         <div className='mintCard'>
             <h1>Membership NFT 2022</h1>
                 <img className='memberNft' src={'https://bafybeicd42lt7eg56nw6uyce4mzl2tj4vsbnoxgmsgorcnfkl52vt4h45u.ipfs.nftstorage.link/'} alt=''/>
