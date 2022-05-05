@@ -1,17 +1,20 @@
 .officerContainer {
     display: flex;
     height: 100%;
+    flex-wrap: wrap;
 
 }
 
 .officerCard {
     display: flex;
     padding-left: 40px;
-    width:700px;
+    min-width: 450px;
+    max-width:45vw;
     margin-top:10px;
     line-height: 20px;
     flex-direction: column;
     font-size: 14px;
+
   }
 
   .header {
@@ -56,10 +59,10 @@
     border-radius: 30px;
     width: 370px;
     height: 680px;
-    margin-right: 0px;
+    margin-right: 10vw;
     display: flex;
     flex-direction: column;
-    margin-left: 160px; 
+    margin-left: 10vw; 
     margin-top: 5px;
   }
 

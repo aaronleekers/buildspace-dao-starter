@@ -12,12 +12,20 @@ h1 {
     margin-left: 40px;
 }
 
+.collectionContainerHeader {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 25vw;
+    padding-right: 25vw;
+}
 
 .done { 
-    width: 220px;
-    margin-left: 40px;
+    width: 20vw;
     font-style: italic;
     font-weight: normal;
+    padding-left: 11.5vw;
+    padding-right: 25vw;
 }
 .collectionContainer > div {
     justify-items:auto;
@@ -28,8 +36,8 @@ h1 {
 }
 
 .openSea {
-    margin-left: .6%;
-    width:5%;
+    min-width: 280px;
+    max-width:10vw;
 }
 .collection {
     margin-top: 10px;

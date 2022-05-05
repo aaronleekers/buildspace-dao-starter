@@ -7,10 +7,12 @@ const NFTCardList = ({}) => {
         <div>
             
         <div className='collection'>
+        <div className='collectionContainerHeader'>
         <h1>Sittner NFTs</h1>
         <h3 className='done'>View your room on OpenSea after minting!</h3>
         <form target='_blank' action='https://opensea.io/collection/sittner-nfts-v4'>
         <button className='openSea' type="submit">View on OpenSea</button></form>
+        </div>
         <div>
         <h1>First North</h1>
         <div className ='collectionContainer'>
@@ -40,20 +42,6 @@ const NFTCardList = ({}) => {
                 <CollectionCard id={22} name={`Sittner Hall 126`} traits={[{ value: 1 }]} image='https://bafybeigqdlnxjwrv6wtwfopvlzpcqunvvqzgdqrqmuivwaa5jq3duc7jmq.ipfs.nftstorage.link/'/>
                 <CollectionCard id={23} name={`Sittner Hall 127`} traits={[{ value: 1 }]} image='https://bafybeigynrj2gwngsgrao6vfrgqgtp2k2lom4durowgqvaxhtumtub4m6a.ipfs.nftstorage.link/'/>
                 <CollectionCard id={24} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeicddqzcd6wqvcxyasgqgi2wndkx3vu2nhtks5tbioxwum6zp3wo2m.ipfs.nftstorage.link/'/>
-                <CollectionCard id={0} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={0} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={29} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={30} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>  
 
             </div>
         </div> 
@@ -84,21 +72,6 @@ const NFTCardList = ({}) => {
                 <CollectionCard id={44} name={`Sittner Hall 158`} traits={[{ value: 1 }]} image='https://bafybeiheuu7sbyvko74jtfew3crf24ooaixrnipcuifnelbzd57ehbrbsq.ipfs.nftstorage.link/'/>
                 <CollectionCard id={45} name={`Sittner Hall 159`} traits={[{ value: 1 }]} image='https://bafybeigis2n5fj5nz4d2kyqksgegmgihutur4l7tngiainmyp5m7ykfe44.ipfs.nftstorage.link/'/>
                 <CollectionCard id={46} name={`Sittner Hall 160`} traits={[{ value: 1 }]} image='https://bafybeihdj7evikjcujrquu6xf5wetv5cwg6qkilhe64kvwuokm6nfxukqu.ipfs.nftstorage.link/'/>
-                <CollectionCard id={0} name={`Sittner Hall 160`} traits={[{ value: 1 }]} image='https://bafybeigqdlnxjwrv6wtwfopvlzpcqunvvqzgdqrqmuivwaa5jq3duc7jmq.ipfs.nftstorage.link/'/>
-                <CollectionCard id={0} name={`Sittner Hall 160`} traits={[{ value: 1 }]} image='https://bafybeigqdlnxjwrv6wtwfopvlzpcqunvvqzgdqrqmuivwaa5jq3duc7jmq.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 160`} traits={[{ value: 1 }]} image='https://bafybeigqdlnxjwrv6wtwfopvlzpcqunvvqzgdqrqmuivwaa5jq3duc7jmq.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 160`} traits={[{ value: 1 }]} image='https://bafybeigqdlnxjwrv6wtwfopvlzpcqunvvqzgdqrqmuivwaa5jq3duc7jmq.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 160`} traits={[{ value: 1 }]} image='https://bafybeigqdlnxjwrv6wtwfopvlzpcqunvvqzgdqrqmuivwaa5jq3duc7jmq.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 160`} traits={[{ value: 1 }]} image='https://bafybeigqdlnxjwrv6wtwfopvlzpcqunvvqzgdqrqmuivwaa5jq3duc7jmq.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 160`} traits={[{ value: 1 }]} image='https://bafybeigqdlnxjwrv6wtwfopvlzpcqunvvqzgdqrqmuivwaa5jq3duc7jmq.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 160`} traits={[{ value: 1 }]} image='https://bafybeigqdlnxjwrv6wtwfopvlzpcqunvvqzgdqrqmuivwaa5jq3duc7jmq.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 160`} traits={[{ value: 1 }]} image='https://bafybeigqdlnxjwrv6wtwfopvlzpcqunvvqzgdqrqmuivwaa5jq3duc7jmq.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 160`} traits={[{ value: 1 }]} image='https://bafybeigqdlnxjwrv6wtwfopvlzpcqunvvqzgdqrqmuivwaa5jq3duc7jmq.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 160`} traits={[{ value: 1 }]} image='https://bafybeigqdlnxjwrv6wtwfopvlzpcqunvvqzgdqrqmuivwaa5jq3duc7jmq.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 160`} traits={[{ value: 1 }]} image='https://bafybeigqdlnxjwrv6wtwfopvlzpcqunvvqzgdqrqmuivwaa5jq3duc7jmq.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 160`} traits={[{ value: 1 }]} image='https://bafybeigqdlnxjwrv6wtwfopvlzpcqunvvqzgdqrqmuivwaa5jq3duc7jmq.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-
             </div>
         </div> 
         </div>
@@ -125,23 +98,7 @@ const NFTCardList = ({}) => {
                 <CollectionCard id={63} name={`Sittner Hall 224`} traits={[{ value: 1 }]} image='https://bafybeibv5gzq2gqvmpvntzuqk475o6damf7mcbc7op6wfe72qnx2rskfki.ipfs.nftstorage.link/'/>
                 <CollectionCard id={64} name={`Sittner Hall 226`} traits={[{ value: 1 }]} image='https://bafybeifadkl5q7ekq44ojj3lkdixprth2tzqdjdz2pgk52zw3xdxqvyu2m.ipfs.nftstorage.link/'/>
                 <CollectionCard id={65} name={`Sittner Hall 227`} traits={[{ value: 1 }]} image='https://bafybeicql7cmqcimstm46yys7seg5zbvr23mgkssthodxysgijmgkder3i.ipfs.nftstorage.link/'/>
-                <CollectionCard id={66} name={`Sittner Hall 228`} traits={[{ value: 1 }]} image='https://bafybeiewmvt4mdpmyoo6usosuhzmjuwnzq6durupc4hyumh4dqlvy7ntpi.ipfs.nftstorage.link/'/>
-                <CollectionCard id={0} name={`Sittner Hall 228`} traits={[{ value: 1 }]} image='https://bafybeidzo5pgclprfwt4hrytgv3z3tbpafulnzfqv5ebqs23kyei6l47fu.ipfs.nftstorage.link/'/>
-                <CollectionCard id={0} name={`Sittner Hall 228`} traits={[{ value: 1 }]} image='https://bafybeignqloqe6xpedgo6sh3ft52cblzyvn5g5b6jnznp2erda2iqxpnqe.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 228`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 228`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 228`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 228`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 228`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 228`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 228`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 228`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 228`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 228`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-
-            </div>
+                <CollectionCard id={66} name={`Sittner Hall 228`} traits={[{ value: 1 }]} image='https://bafybeiewmvt4mdpmyoo6usosuhzmjuwnzq6durupc4hyumh4dqlvy7ntpi.ipfs.nftstorage.link/'/>            </div>
         </div> 
         </div>
         <div>
@@ -169,22 +126,6 @@ const NFTCardList = ({}) => {
                 <CollectionCard id={85} name={`Sittner Hall 254`} traits={[{ value: 1 }]} image='https://bafybeifilhxeuazy7q7usx4nigqqrbn4adqruqxe4pn3yb42ayj2ucjdci.ipfs.nftstorage.link/'/>
                 <CollectionCard id={86} name={`Sittner Hall 255`} traits={[{ value: 1 }]} image='https://bafybeid4tbkbs2rerb6dji6flyd3536isgj467lqk3h7j6a3zpnn6ueppi.ipfs.nftstorage.link/'/>
                 <CollectionCard id={87} name={`Sittner Hall 256`} traits={[{ value: 1 }]} image='https://bafybeicvjh5ev7lbrfx5bxq5la4lfuu33nt6t44qqb5vmltgftyopalqsy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={0} name={`Sittner Hall 256`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={0} name={`Sittner Hall 126`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 127`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-
             </div>
         </div> 
         </div>
@@ -220,22 +161,6 @@ const NFTCardList = ({}) => {
                 <CollectionCard id={113} name={`Sittner Hall 327`} traits={[{ value: 1 }]} image='https://bafybeiecgq3hof4hfz6a3pnw35cnwpv7opocsfkcqp72xhir3m6ksbs36m.ipfs.nftstorage.link/'/>
                 <CollectionCard id={114} name={`Sittner Hall 328`} traits={[{ value: 1 }]} image='https://bafybeighwbh4p42gwbxaeqmekxjelmbb5a5ty36etjmtlmfyr7fps65uaq.ipfs.nftstorage.link/'/>
                 <CollectionCard id={115} name={`Sittner Hall 329`} traits={[{ value: 1 }]} image='https://bafybeiggifyzcf3te2ibuqzpw4qofjbqglb4wad75wds4ervxp3lx7obu4.ipfs.nftstorage.link/'/>
-                <CollectionCard id={115} name={`Sittner Hall 330`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={0} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-
             </div>
         </div> 
         </div>
@@ -271,21 +196,6 @@ const NFTCardList = ({}) => {
                 <CollectionCard id={141} name={`Sittner Hall 358`} traits={[{ value: 1 }]} image='https://bafybeid6a3s6zbd2xpfjedq7qomg3orl2yxtusceryg5omymevtyr25s6m.ipfs.nftstorage.link/'/>
                 <CollectionCard id={142} name={`Sittner Hall 359`} traits={[{ value: 1 }]} image='https://bafybeigspwp3sjqnhjdkddujappxmxk5gibc25vejvn62laiugx6bfhnnm.ipfs.nftstorage.link/'/>
                 <CollectionCard id={143} name={`Sittner Hall 360`} traits={[{ value: 1 }]} image='https://bafybeifp2jsildmbg6f2ijz2lvelubyqg5jk2dumh3qcspbojor3pbip7a.ipfs.nftstorage.link/'/>
-                <CollectionCard id={0} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={0} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={19} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={10} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-
             </div>
         </div> 
         </div>
@@ -322,21 +232,6 @@ const NFTCardList = ({}) => {
                 <CollectionCard id={171} name={`Sittner Hall 428`} traits={[{ value: 1 }]} image='https://bafybeiadrd3gzlaeybtufpjczot54axsoilryxmqqkrbb3ghn55zpcgtda.ipfs.nftstorage.link/'/>
                 <CollectionCard id={172} name={`Sittner Hall 429`} traits={[{ value: 1 }]} image='https://bafybeig34uvvm33ag4ygblgqpuay2sl7wuoprs4xczzjtkb7ld5mpwkkne.ipfs.nftstorage.link/'/>
                 <CollectionCard id={173} name={`Sittner Hall 430`} traits={[{ value: 1 }]} image='https://bafybeig376yay25ri6pveqedjuiewoiwf33b22y4a6jz7kjdoltyscnepe.ipfs.nftstorage.link/'/>
-                <CollectionCard id={0} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-
             </div>
         </div> 
         </div>
@@ -374,20 +269,6 @@ const NFTCardList = ({}) => {
                 <CollectionCard id={201} name={`Sittner Hall 458`} traits={[{ value: 1 }]} image='https://bafybeibfzzp6jfjff35xxgr6mjoipgqugqq2kss4bjyhyvpkaekvgprcci.ipfs.nftstorage.link/'/>
                 <CollectionCard id={202} name={`Sittner Hall 459`} traits={[{ value: 1 }]} image='https://bafybeifrmsvi3gk5zlli3vrvldqusowahktac7agikucjjh3gjiq6ulkya.ipfs.nftstorage.link/'/>
                 <CollectionCard id={203} name={`Sittner Hall 460`} traits={[{ value: 1 }]} image='https://bafybeigylptqrgqvswhi2mhukgd7dbipsnw4gciziymn6zcp2giztbmfkq.ipfs.nftstorage.link/'/>
-                <CollectionCard id={0} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={0} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={197} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={198} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={199} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={199} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
-                <CollectionCard id={13} name={`Sittner Hall 128`} traits={[{ value: 1 }]} image='https://bafybeie7mgslczxglti2qeth2n7kaoaf4e7xqu2bdaxzyyequq64sx6ezy.ipfs.nftstorage.link/'/>
             </div>
         </div> 
         </div>
