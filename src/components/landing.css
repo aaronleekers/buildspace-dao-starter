@@ -54,7 +54,7 @@ display: flex;
 flex-direction: column;
 margin-left:1em;
 padding-bottom: 0px;
-margin-right: -20px;
+margin-right:0px;
 max-height: 24.5em;
 width: 2.3vw;
 justify-content: space-around;
@@ -99,9 +99,9 @@ justify-content: space-around;
 }
 
 .actionButton {
-    background-color: rgb(205, 207, 186);
+    background-color: #8b9d7e;
     color: #1a1c1e;
-    width: 22vw;
+    width: 30vw;
     border-radius: 0px;
     height: 9.5vh;
     font-size: 1em;
@@ -109,16 +109,14 @@ justify-content: space-around;
     padding-left: 10px;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom:0px;
-    outline-style:solid;
-    outline-color: white;
     }
 
 .actionButtonTopRight {
-    background-color: rgb(205, 207, 186);
+    background-color: #8b9d7e;
     color: #1a1c1e;
-    width: 22vw;
+    width: 30vw;
     border-radius: 0px;
     height: 11.8vh;
     font-size: 1em;
@@ -126,18 +124,16 @@ justify-content: space-around;
     padding-left: 10px;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom:0px;
-    outline-style:solid;
-    outline-color: white;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     }
 
 .actionButtonBottomRight {
-    background-color: rgb(205, 207, 186);
+    background-color: #8b9d7e;
     color: #1a1c1e;
-    width: 22vw;
+    width: 30vw;
     border-radius: 0px;
     height: 15.7vh;
     font-size: 1em;
@@ -145,10 +141,8 @@ justify-content: space-around;
     padding-left: 10px;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom:0px;
-    outline-style:solid;
-    outline-color: white;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
         }

@@ -67,24 +67,12 @@ const App = () => {
 
   if (hasClaimedNFT) {
   return (
-    <div className="member-page">
-      <div>
+      <div className='memberPage'>
         <Header/>
-      </div>
-      <div className='officerPage'>
         <Officer/>
-      </div>
-      <div className='nftCardList'>
-        <div>
-          <NFTCardList/>
-        </div>   
-        <div>
-        <div>
-      </div>
-      </div>
-    </div>
-    <Footer/>
-    </div> 
+        <NFTCardList/>
+        <Footer/>
+      </div> 
   );
   }
 };

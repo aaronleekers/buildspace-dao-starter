@@ -205,6 +205,10 @@ flex-wrap: wrap;
   height: 100vh;
 }
 
+.memberPage {
+  width: 100vw;
+  height: 100vh;
+}
 
 .topContainer {
   display: flex;
