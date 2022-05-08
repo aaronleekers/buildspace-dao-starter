@@ -1,0 +1,89 @@
+.officerContainer {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+
+}
+
+.officerCard {
+    display: flex;
+    padding-left: 40px;
+    min-width: 450px;
+    max-width:45vw;
+    margin-top:10px;
+    line-height: 20px;
+    flex-direction: column;
+    font-size: 14px;
+
+  }
+
+  .header {
+      margin-bottom: -140px;
+      padding-top: 0px;
+      width: 400px;
+      margin-left: -0px;
+      font-size: 39px;
+  }
+
+.officerApply {
+    width: 400px;
+    margin-left: 0px;
+}
+  .five {
+      font-weight: bold;
+      line-height: 40px;
+      padding-top: 40px;
+      font-size: 20px;
+  }
+
+  .officerDetails {
+    padding: 20px;
+    margin-left: 5px;
+}
+
+.officerName {
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.officerId {
+    color: #a1a5b0;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+  .officerNftCard {
+    color: white;
+    background-color: #1a1c1e;
+    border-radius: 30px;
+    width: 370px;
+    height: 680px;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw; 
+    margin-top: 5px;
+  }
+
+  .officerNftCard > img {
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+  }
+
+  .officerMint {
+      width: 300px;
+      margin-left: 5px;
+      margin-right: 10px;
+      margin-top: 70px;
+  }
+
+  .officerCard > div > p {
+    font-size: 17px;
+  }
+
+  .officerCard > div > h2 {
+    font-size: 20px;
+    text-align: left;
+  }
