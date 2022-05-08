@@ -3,7 +3,7 @@
     display: flex;
     height: auto;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+
 }
 
 .mintCard > p {
@@ -20,8 +20,7 @@
 .mintCard {
     margin-top: 30px;
     width: 300px;
-    margin-left: 0vw;
-    margin-right: 0vw;
+    margin-left: 10vw;
 }
 
 .mintCard > h1 {

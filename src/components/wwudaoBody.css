@@ -19,8 +19,8 @@ justify-content: space-between;
 }
 
 .bodyText {
-    min-width: 450px;
-    max-width:45vw;
+    min-width: 20vw;
+    max-width: 90vw;
     margin-left: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -29,7 +29,6 @@ justify-content: space-between;
 
 
 .imageContainer {
-    margin-top: 10vh;
     min-width: 10px;
     max-width: 50vw;
 }

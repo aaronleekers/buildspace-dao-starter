@@ -97,7 +97,7 @@ const Landing = ({}) => {
                 <div className='buttonList'>
                   <div>
                   <form target='_blank' action="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn">
-                        <button className='actionButton' type="submit">Click to Install</button>
+                        <button className='actionButtonTopRight' type="submit">Click to Install</button>
                     </form>
                         <button className='actionButton' onClick={connectWithMetamask}>Connect Wallet</button>
                         <button className='actionButton' onClick={() => handleNetworkSwitch("polygon")}>Switch Network</button>     
@@ -105,7 +105,7 @@ const Landing = ({}) => {
                         <button className='actionButton' type="submit">Get Free Gas</button>
                     </form>
                     <form>
-                        <button className='actionButton' disabled={isClaiming} onClick={mintMembershipNft}>
+                        <button className='actionButtonBottomRight' disabled={isClaiming} onClick={mintMembershipNft}>
                             {isClaiming ? "Minting..." : "Mint"}
                         </button>    
                     </form>
