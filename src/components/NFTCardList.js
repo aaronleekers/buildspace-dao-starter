@@ -8,7 +8,10 @@ const NFTCardList = ({}) => {
             
         <div className='collection'>
         <div className='collectionContainerHeader'>
-        <h1>Sittner NFTs</h1>
+        <div className='headerText'>
+        <h1 className='sittnerNfts'>Sittner NFTs</h1>
+        <p className='needsWallet'>Must have connected wallet to claim</p>
+        </div>
         <form target='_blank' action='https://opensea.io/collection/sittner-nfts-v4'>
         <button className='openSea' type="submit">View on OpenSea</button></form>
         </div>

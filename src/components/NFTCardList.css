@@ -12,6 +12,7 @@ h1 {
     margin-left: 0px;
 }
 
+
 .collectionContainerHeader {
     display: flex;
     flex-direction: row;
@@ -44,9 +45,9 @@ h1 {
 }
 .collection {
     margin-top: 10px;
-    width:auto;
+    width:100vw;
     height:auto;
-    overflow:scroll;
+    overflow:hidden;
 }
 
 .firstNorth {
