@@ -14,15 +14,13 @@ const App = () => {
   // Use the hooks thirdweb give us.
   const address = useAddress();
   console.log("👋 Address:", address);
+  const [hasClaimedNFT, setHasClaimedNFT,] = useState(false);
 
-  
 
   window.Buffer = Buffer;
   // Initialize our editionDrop contract
   const editionDrop = useEditionDrop("0x51D46e7AE5cA35172f8E505f9cFd82087A416549");
   // State variable for us to know if user has our NFT.
-  const [hasClaimedNFT, setHasClaimedNFT,] = useState(false);
-
 
   useEffect(() => {
     // If they don't have an connected wallet, exit!
@@ -50,7 +48,6 @@ const App = () => {
   
   
 
-
   // This is the case where the user hasn't connected their wallet
   // to your web app. Let them call connectWallet.
   if (!hasClaimedNFT) {
@@ -60,6 +57,8 @@ const App = () => {
         <Landing/>
         <WwudaoBody/>
         <ContractCollection/>
+        <NFTCardList/>
+        <Officer/>
         <Footer/>
       </div>
     );
@@ -67,10 +66,11 @@ const App = () => {
 
   if (hasClaimedNFT) {
   return (
-      <div className='memberPage'>
+      <div className='landingPage'>
         <Header/>
         <Officer/>
         <NFTCardList/>
+        <WwudaoBody/>
         <Footer/>
       </div> 
   );

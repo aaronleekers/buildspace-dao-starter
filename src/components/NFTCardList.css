@@ -9,23 +9,25 @@
 }
 
 h1 {
-    margin-left: 40px;
+    margin-left: 0px;
 }
 
 .collectionContainerHeader {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    padding-left: 25vw;
-    padding-right: 25vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 9vw;
+    padding-right: 0vw;
+    width: 100vw;
+    margin-top: 5vh;
 }
 
 .done { 
-    width: 20vw;
+    min-width: 250px;
+    max-width: 20vw;
+    font-size: 1rem;
     font-style: italic;
     font-weight: normal;
-    padding-left: 11.5vw;
-    padding-right: 25vw;
 }
 .collectionContainer > div {
     justify-items:auto;
@@ -36,7 +38,8 @@ h1 {
 }
 
 .openSea {
-    min-width: 280px;
+    min-width: 210px;
+    margin-left: 0px;
     max-width:10vw;
 }
 .collection {

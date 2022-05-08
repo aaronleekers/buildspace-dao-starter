@@ -63,7 +63,7 @@ const Landing = ({}) => {
 
     return (
         <div>
-          <h1 className='chrome'>Must use Coinbase Wallet or MetaMask brower extension to use app</h1>
+          <h1 className='chrome'>Must use MetaMask brower extension to use app</h1>
         <div className='landingTop'>
           <div className='scheduleContainer'>
           <div className='schedule'>
