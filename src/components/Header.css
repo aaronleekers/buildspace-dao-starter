@@ -25,6 +25,7 @@
     align-items: center;
     justify-content: space-evenly;
     padding-top: 10px;
+    
 
 
 }
@@ -57,12 +58,10 @@ background-color: #65685300;
 }
 
 .openLogo {
-    min-width: 50px;
     max-width: 5vw;
 }
 
 .discordTwo {
-    min-width: 50px;
     max-width: 6vw;
 
 }
