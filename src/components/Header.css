@@ -58,10 +58,12 @@ background-color: #65685300;
 }
 
 .openLogo {
+    min-width: 30px;
     max-width: 5vw;
 }
 
 .discordTwo {
+    min-width:35px;
     max-width: 6vw;
 
 }

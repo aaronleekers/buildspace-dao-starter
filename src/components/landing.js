@@ -62,6 +62,8 @@ const Landing = ({}) => {
 
 
     return (
+        <div>
+          <h1 className='chrome'>Must use Coinbase Wallet or MetaMask brower extension to use app</h1>
         <div className='landingTop'>
           <div className='scheduleContainer'>
           <div className='schedule'>
@@ -74,6 +76,7 @@ const Landing = ({}) => {
           </div>
         </div>
           </div>
+          <div>
           <div className='onBoarding'>
             <div className='metaMask'>
                 <div>
@@ -86,7 +89,7 @@ const Landing = ({}) => {
                 </div>
                 <div className='steps'>
 
-                <h1>Install MetaMask Wallet</h1>
+                <h1>Install MetaMask Wallet on Chrome</h1>
                 <h1>Connect Wallet</h1>
                 <h1>Change Network to Polygon</h1>
                 <h1>Send gas funds to wallet*</h1>
@@ -112,7 +115,11 @@ const Landing = ({}) => {
                   </div>
                 </div>
                 </div>
+          </div>
+     
             </div>
+
+        </div>
     )
 }
 
