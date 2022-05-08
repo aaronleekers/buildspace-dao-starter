@@ -69,7 +69,7 @@ const Landing = ({}) => {
           <div className='schedule'>
             <h2>Upcoming Events</h2>
           <div className='scheduleItems'>
-            <h3>May 1 - DAO is deployed</h3>
+            <h3>May 9 - DAO is deployed</h3>
             <h3>May 22 - WLA Airdrop to NFT holders</h3>
             <h3>June 1 - Officers are selected</h3>
             <h3>June 10 - Ownership is transferred</h3>
