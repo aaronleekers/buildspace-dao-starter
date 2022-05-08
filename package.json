@@ -15,8 +15,8 @@
     "util": "^0.12.4"
   },
   "scripts": {
-    "start": "CI=FALSE react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "build": "CI=FALSE react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
