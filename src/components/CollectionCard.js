@@ -8,7 +8,7 @@ const CollectionCard = ({ id, name, traits, image }) => {
   const address = useAddress();
 
     // Initialize Sittner NFT collection
-    const editionDrop = useEditionDrop("0x51D46e7AE5cA35172f8E505f9cFd82087A416549");
+    const editionDrop = useEditionDrop("0x6485bAC1543e0B2532A60660932345a0Be3478b4");
     const Sittner = useEditionDrop("0x5c49ce397507a8dE4D2c9B431b204fF42bB5f502");
     
     const [hasClaimedNFT, setHasClaimedNFT,] = useState(false);

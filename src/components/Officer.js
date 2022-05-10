@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 const Officer = ({}) => {
 
-    const editionDrop = useEditionDrop("0x51D46e7AE5cA35172f8E505f9cFd82087A416549");
+    const editionDrop = useEditionDrop("0x6485bAC1543e0B2532A60660932345a0Be3478b4");
     // isClaiming lets us easily keep a loading state while the NFT is minting.
     const [isClaiming, setIsClaiming] = useState(false);  
 
@@ -37,14 +37,22 @@ const Officer = ({}) => {
                   The mission of the officers and the DAO is also somewhat loose. However, there are a few imperatives that are laid out here to ensure the DAO has potential to remain present on campus. They are as follows:
                 </p>
               </div>
-        <div>
-        <h2 className='five'>
-                - Distribute Annual Membership NFTs<br/>
-                - Seek out resources to post in the community channels<br/>
-                - Research and apply new features as they become available<br/>
-                - Obtain funding to ensure ease of involvement on campus<br/>
+        <div className='five'>
+                <h2>
+                - Distribute Annual Membership NFTs
+                </h2>
+                <h2>
+                - Seek out resources to post in the community channels
+                </h2>
+                <h2>
+                - Research and apply new features as they become available
+                </h2>
+                <h2>
+                - Obtain funding to ensure ease of involvement on campus
+                </h2>
+                <h2>
                 - Launch an annual NFT collection that pools together the art and design of students & members
-        </h2>
+                </h2>
         </div>
             <form action="https://forms.gle/jLfTwkBxe5ifNYKRA">
                     <button className='officerApply' type="submit">Apply Here</button>
