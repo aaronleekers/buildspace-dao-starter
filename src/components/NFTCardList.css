@@ -19,7 +19,8 @@ h1 {
     flex-wrap: wrap;
     padding-left: 9vw;
     padding-right: 0vw;
-    width: 100vw;
+    min-width: 350px;
+    max-width: 40vw;
     margin-top: 5vh;
 }
 
@@ -39,6 +40,7 @@ h1 {
 }
 
 .openSea {
+    margin-top: 20px;
     min-width: 210px;
     margin-left: 0px;
     max-width:10vw;
@@ -53,4 +55,8 @@ h1 {
 .firstNorth {
     display: flex;
     flex-direction: column;
+}
+
+.needsWallet {
+    margin-left: -50px;
 }

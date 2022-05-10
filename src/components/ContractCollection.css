@@ -28,8 +28,10 @@
     font-size: 18px;
     padding-top: 10px;
     padding-bottom: 10px;
+    min-width: 250px;
+    max-width: 100vw;
+    margin-left: 25px;
 }
-
 
 .memberNft {
     border-radius: 00px;

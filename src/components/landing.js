@@ -19,7 +19,7 @@ const Landing = ({}) => {
       },
     }
 
-    const editionDrop = useEditionDrop("0x0aA1c2d61CE84f40FF1FC4aA6324CBF2bb28a252");
+    const editionDrop = useEditionDrop("0x6485bAC1543e0B2532A60660932345a0Be3478b4");
 
     const [ setHasClaimedNFT ] = useState(false);
 
@@ -49,7 +49,7 @@ const Landing = ({}) => {
     const mintMembershipNft = async () => {
     try {
     setIsClaiming(true);
-    await editionDrop.claim(0, 1);
+    await editionDrop.claim(0,1);
     console.log(`🌊 Successfully Minted! Check it out on OpenSea: https://opensea.io/assets/${editionDrop.getAddress()}/0`);
     setHasClaimedNFT(true);
   } catch (error) {
