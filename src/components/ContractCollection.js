@@ -7,7 +7,7 @@ const ContractCollection = ({ }) => {
         <div className='contractContainer'>
         <div className='mintCard'>
             <h1>Membership NFT 2022</h1>
-                <img className='memberNft' src={'https://bafybeicd42lt7eg56nw6uyce4mzl2tj4vsbnoxgmsgorcnfkl52vt4h45u.ipfs.nftstorage.link/'} alt=''/>
+                <img className='memberNft' src={'https://bafybeibhsuueykrx7kiha3kw5aluorw2q35w5yb3vhs6ddfzdemqshlte4.ipfs.nftstorage.link/'} alt=''/>
             <form target='_blank' action="https://opensea.io/assets/matic/0x51d46e7ae5ca35172f8e505f9cfd82087a416549/0">
                 <button className='cardButton' type="submit">View</button>
             </form>
@@ -15,7 +15,7 @@ const ContractCollection = ({ }) => {
       </div>
       <div className='mintCard'>
             <h1>Officer NFT 2022</h1>
-                <img className='memberNft' src={'https://bafybeicepey3m3eyf5pygpjqveyc3idcz6bh6opvyfsf7xtbb4uezl2dpm.ipfs.nftstorage.link/'} alt=''/>
+                <img className='memberNft' src={'https://bafybeiexjllz3g6a67famfr5wpkonfzerumn22o5bnj5ujgjsczcfkv7dm.ipfs.nftstorage.link/'} alt=''/>
             <form target='_blank' action="https://opensea.io/assets/matic/0x51d46e7ae5ca35172f8e505f9cfd82087a416549/1">
                 <button className='cardButton' type="submit">View</button>
             </form>
